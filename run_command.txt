@@ -1,0 +1,2 @@
+mvn clean compile assembly:single
+    java -cp target/text-1.0-SNAPSHOT-jar-with-dependencies.jar com.google.cloud.vision.samples.text.TextApp ../../../data/text/
